@@ -18,6 +18,8 @@ ExportedObj/
 *.booproj
 *.svd
 
+# GoogleVR Unity SDK
+Assets/GoogleVR/
 
 # Unity3D generated meta files
 *.pidb.meta
