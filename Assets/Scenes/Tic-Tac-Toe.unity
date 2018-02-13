@@ -127,7 +127,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &9806681
 Light:
@@ -139,8 +139,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.71323526, g: 0.61485785, b: 0.29368508, a: 1}
-  m_Intensity: 1
-  m_Range: 18.83
+  m_Intensity: 4
+  m_Range: 2.61
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -158,7 +158,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -823,7 +823,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 6.65
+  m_Intensity: 4.07
   m_Range: 19.54
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1945,7 +1945,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.9852941, g: 0.77194697, b: 0.5433607, a: 1}
   m_Intensity: 1
-  m_Range: 24.96
+  m_Range: 7.1
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -3542,6 +3542,15 @@ Prefab:
       propertyPath: LightsModule.maxLights
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 1737202210725220, guid: f833cdf1256a2344c967c20382af3ec8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23281160683236998, guid: f833cdf1256a2344c967c20382af3ec8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f833cdf1256a2344c967c20382af3ec8, type: 2}
   m_IsPrefabParent: 0
@@ -4431,7 +4440,7 @@ Light:
   m_Type: 0
   m_Color: {r: 0.83823526, g: 0.6614067, b: 0.19723181, a: 1}
   m_Intensity: 1
-  m_Range: 10
+  m_Range: 1.96
   m_SpotAngle: 120.35
   m_CookieSize: 10
   m_Shadows:
