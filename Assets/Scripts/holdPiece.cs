@@ -16,22 +16,17 @@ public class holdPiece : MonoBehaviour {
 	public float gravityFactor = 10.0f;
 	private Vector3 forceDirection;
 
-    // Use this for initialization
-    void Start () {
-		
-	}
+
 	public void grabPiece(GameObject selectedPiece) {
         if (selectedPiece.GetComponent<PlayerPiece>().hasBeenPlayed == false) {
             pieceBeingHeld = selectedPiece;
             holdingPiece = true;
         }
     }
-	// Update is called once per frame
-	void Update () {
-       
-    }
 
-    private void FixedUpdate() {
+
+    private void FixedUpdate()
+    {
         if (GameLogic.GetComponent<GameLogic>().playerTurn == true)
         {
             if (holdingPiece == true)
